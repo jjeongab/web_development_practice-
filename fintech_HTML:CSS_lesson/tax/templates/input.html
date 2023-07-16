@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>세금계산프로그램 입력화면</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.boot
+strapcdn.com/bootstrap/3.4.1/css/bootstrap.min.c
+ss">
+    <script src="https://ajax.googleapis.com/ajax/li
+bs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/boo
+tstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:red">
+        <div class="row">
+            <div class="col-md-4">Span 4</div>
+            <div class="col-md-4"><h1>세금계산기</h1></div>
+            <div class="col-md-4">Span 4</div>
+        </div>
+        <form action="/result" method="post">
+            <table class="table table- bordered" style="width:100%">
+                <tr>
+                    <td>Enter the gross income: </td>
+                    <td><input type="text" name="income"></td>
+                </tr>
+                <tr>
+                    <td>Enter the number of depedents:</td>
+                    <td><input type="text" name="nd"></td>
+                </tr>
+                <tr>
+                    <td colspan = "2"><input type="submit" value="Calculate Tax">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

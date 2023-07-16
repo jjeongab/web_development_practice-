@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bootstrap sample page
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.c
+ss">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font: 20px "Montserrat", sans-serif;
+            line-height: 1.8;
+            color:#f5f6f7;
+        }
+        p{
+                font-size: 16px;
+        }
+        .container-fluid{
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .bg-1{
+            background-color: rgb(129, 212, 129);
+            color: rgb(241, 235, 235);
+        }
+        .bg-2{
+            background-color: rgb(128, 173, 219);
+            color: rgb(211, 62, 146);
+        }
+        .bg-3{
+            background-color: wheat;
+            color: #d21ddbdd;
+        }
+        .bg-4{
+            background-color: rgb(129, 212, 129);
+            color: rgb(241, 235, 235);
+        }
+        .container-fluid{
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .image-responsive{
+            width: 100%;
+            height: 100%;
+        }
+        .navbar{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border:0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav li a:hover{
+            color: rgb(76, 132, 68);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default"> 
+        <div class="container-fluid"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data- target="#myNavbar">
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#">Me</a> 
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar"> 
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#who">WHO</a></li>
+                <li><a href="#what">WHAT</a></li>
+                <li><a href="#where">WHERE</a></li>
+            </ul> 
+        </div>
+    </div>
+     </nav>
+    <div class = "container-fluid bg-1 text-center">
+        <h3 id = "who">Who Am I?</h3>
+        <img src = "/Users/wjdwlsghd13/Desktop/Documents_For_Job/profilepic.JPG" class = "img-circle" alt ="Jeong" width="300" height="300">
+        <h3>I'm an adventurer</h3>
+    </div>
+    <div class= "container-fluid bg-2 text-center">    
+        <h3 id = "what">What am I?</h3>
+        <p>    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+            <br>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+            <br> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br>
+            <a href = "https://www.google.com" class = "btn btn-default btn-lg" >
+            <span class = "glyphicon glyphicon-search"></span> Search</a>
+        </p>
+    </div>
+    <div class = "container-fluid bg-3 text-center">
+        <h3 id = "where">Where To Find Me!</h3>
+        <div class = "row">
+            <div class = "col-sm-4">
+                <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <img src = "/Users/wjdwlsghd13/Desktop/bird1.jpeg" class = "img-responsive" alt = "bird1" width = "100%" height = "100%">
+            </div>ㄴ
+            <div class = "col-sm-4">
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                <img src = "/Users/wjdwlsghd13/Desktop/bird2.jpg" class = "img-responsive" alt = "bird2" width = "100%" height = "100%">
+            </div>        
+            <div class = "col-sm-4">
+                <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                <img src = "/Users/wjdwlsghd13/Desktop/bird3.jpg" class = "img-responsive" alt = "bird3" width = "200" height = "200">
+            </div>        
+        </div>
+    </div>
+    <footer class = "container-fluid bg-4 text-center">
+        <p>Made by Jin Hong.</p>
+    </footer>
+</body>
+</html>
